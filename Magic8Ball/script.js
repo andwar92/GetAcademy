@@ -18,13 +18,13 @@ function updateVeiw() {
 //Control
 function randomAdvices(){
     let index = Math.floor(Math.random()* advices.length)
-    // advice = advices[index];
+    advice = advices[index];
 
-    for(let i =0; i<advices.length; i++){
-        if(i == index){
-            advice = advices[i];
-        }
-    }
+    // for(let i =0; i<advices.length; i++){
+    //     if(i == index){
+    //         advice = advices[i];
+    //     }
+    // }
 
     updateVeiw();
 };
